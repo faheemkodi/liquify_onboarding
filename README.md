@@ -8,8 +8,6 @@ A modern onboarding platform for business accounts, built with **Django REST Fra
 - User registration, login, and logout
 - Application status dashboard
 - Document re-upload on pushback
-- Modular, maintainable codebase
-- Accessible, minimal UI
 
 ---
 
