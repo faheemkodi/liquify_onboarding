@@ -46,7 +46,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
-python manage.py runserver localhost:8000
+python manage.py runserver localhost:8000 # Important: explicitly bind to localhost since external access/API config is incomplete.
 ```
 - Access API at: http://localhost:8000/
 
